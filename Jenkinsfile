@@ -6,7 +6,7 @@ pipeline {
 		IntegrationFlowID = "ConsumeEventsFromS4HANACloudwitoutslack"
 		CPIHost = "${env.CPI_HOST_DEV}"
 		CPIOAuthHost = "${env.CPI_OAUTH_HOST_DEV}"
-		CPIOAuthCredentials = "dev_api_key"	
+		CPIOAuthCredentials = "dev_api_key_up"	
 		GITRepositoryURL  = "${env.GIT_REPOSITORY_URL}"
 		//GITCredentials = "${env.GIT_CRED}"
 		GITBranch = "${env.GIT_BRANCH_NAME}"
