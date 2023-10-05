@@ -90,7 +90,8 @@ pipeline {
 						sh 'git config --global user.name "Training-Peter-Alexander"'
 						sh 'git diff-index --quiet HEAD || git commit -am ' + '\'' + env.GitComment + '\''
 						//sh('git push https://${GIT_AUTHOR_NAME}:${GIT_PASSWORD}@' + env.GITRepositoryURL + ' HEAD:' + env.GITBranch)
-						sh('git push https://'env.GITRepositoryURL'' + ' HEAD:' + env.GITBranch)
+						sh('git push https://' + env.GITRepositoryURL + ' HEAD:' + env.GITBranch)
+						
 					}				
 				}
 			}
