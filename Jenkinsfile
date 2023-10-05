@@ -8,7 +8,7 @@ pipeline {
 		CPIOAuthHost = "${env.CPI_OAUTH_HOST_DEV}"
 		CPIOAuthCredentials = "dev_api_key"	
 		GITRepositoryURL  = "${env.GIT_REPOSITORY_URL}"
-		//GITCredentials = "${env.GIT_CRED}"
+		GITCredentials = "GITCredentials"
 		GITBranch = "${env.GIT_BRANCH_NAME}"
 		GITFolder = "IntegrationArtefacts"
 		GITComment = "Integration Artefacts update from CICD pipeline"
